@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9F86F12423A4CDB600B2436A"
-               BuildableName = "MVVMTest.app"
-               BlueprintName = "MVVMTest"
-               ReferencedContainer = "container:MVVMTest.xcodeproj">
+               BuildableName = "FluxTest.app"
+               BlueprintName = "FluxTest"
+               ReferencedContainer = "container:FluxTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F86F12423A4CDB600B2436A"
-            BuildableName = "MVVMTest.app"
-            BlueprintName = "MVVMTest"
-            ReferencedContainer = "container:MVVMTest.xcodeproj">
+            BuildableName = "FluxTest.app"
+            BlueprintName = "FluxTest"
+            ReferencedContainer = "container:FluxTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F86F12423A4CDB600B2436A"
-            BuildableName = "MVVMTest.app"
-            BlueprintName = "MVVMTest"
-            ReferencedContainer = "container:MVVMTest.xcodeproj">
+            BuildableName = "FluxTest.app"
+            BlueprintName = "FluxTest"
+            ReferencedContainer = "container:FluxTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -51,7 +51,7 @@
 		9F86F11E239E839900B2436A /* UserDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailCell.swift; sourceTree = "<group>"; };
 		9F86F120239E83B500B2436A /* UserDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailCell.xib; sourceTree = "<group>"; };
 		9F86F122239E9BA100B2436A /* UserDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserDetailViewController.storyboard; sourceTree = "<group>"; };
-		9F86F13F23A4CDB600B2436A /* MVVMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F86F13F23A4CDB600B2436A /* FluxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA9B10223A51D07009A380F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		9FA9B10723A52390009A380F /* SearchUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserViewModel.swift; sourceTree = "<group>"; };
 		9FA9B10923A5D262009A380F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		9F86F0E2239CB2CB00B2436A = {
 			isa = PBXGroup;
 			children = (
-				9F86F0ED239CB2CB00B2436A /* MVVMTest */,
+				9F86F0ED239CB2CB00B2436A /* FluxTest */,
 				9FA9B10123A51D07009A380F /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -82,13 +82,13 @@
 		9F86F0EC239CB2CB00B2436A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F86F13F23A4CDB600B2436A /* MVVMTest.app */,
+				9F86F13F23A4CDB600B2436A /* FluxTest.app */,
 			);
 			name = Products;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		9F86F0ED239CB2CB00B2436A /* MVVMTest */ = {
+		9F86F0ED239CB2CB00B2436A /* FluxTest */ = {
 			isa = PBXGroup;
 			children = (
 				9F86F0EE239CB2CB00B2436A /* AppDelegate.swift */,
@@ -114,7 +114,7 @@
 				9F86F0FC239CB2D100B2436A /* Info.plist */,
 				9F86F0EC239CB2CB00B2436A /* Products */,
 			);
-			path = MVVMTest;
+			path = FluxTest;
 			sourceTree = "<group>";
 		};
 		9FA9B10123A51D07009A380F /* Frameworks */ = {
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F86F12423A4CDB600B2436A /* MVVMTest */ = {
+		9F86F12423A4CDB600B2436A /* FluxTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F86F13C23A4CDB600B2436A /* Build configuration list for PBXNativeTarget "MVVMTest" */;
+			buildConfigurationList = 9F86F13C23A4CDB600B2436A /* Build configuration list for PBXNativeTarget "FluxTest" */;
 			buildPhases = (
 				9F86F12523A4CDB600B2436A /* Sources */,
 				9F86F13423A4CDB600B2436A /* Frameworks */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = MVVMTest;
+			name = FluxTest;
 			productName = MVPTest;
-			productReference = 9F86F13F23A4CDB600B2436A /* MVVMTest.app */;
+			productReference = 9F86F13F23A4CDB600B2436A /* FluxTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = gdate;
 			};
-			buildConfigurationList = 9F86F0E6239CB2CB00B2436A /* Build configuration list for PBXProject "MVVMTest" */;
+			buildConfigurationList = 9F86F0E6239CB2CB00B2436A /* Build configuration list for PBXProject "FluxTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F86F12423A4CDB600B2436A /* MVVMTest */,
+				9F86F12423A4CDB600B2436A /* FluxTest */,
 			);
 		};
 /* End PBXProject section */
@@ -418,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F86F0E6239CB2CB00B2436A /* Build configuration list for PBXProject "MVVMTest" */ = {
+		9F86F0E6239CB2CB00B2436A /* Build configuration list for PBXProject "FluxTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F86F0FD239CB2D100B2436A /* Debug */,
@@ -427,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F86F13C23A4CDB600B2436A /* Build configuration list for PBXNativeTarget "MVVMTest" */ = {
+		9F86F13C23A4CDB600B2436A /* Build configuration list for PBXNativeTarget "FluxTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F86F13D23A4CDB600B2436A /* Debug */,
